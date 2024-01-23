@@ -5,8 +5,8 @@ body {
 }
 
 body {
-    color: rgb(66, 68, 68);
-    background-color: rgb(64, 131, 169);
+    color: rgb(13, 80, 129);
+    background-color: rgb(129, 181, 212);
     font-family: "Times New Roman", Times, serif;
     display: flex;
     flex-direction: column;
@@ -16,10 +16,10 @@ body {
 
 .header {
     font-size: 5rem;
-    font-weight: 500;
+    font-weight: 700;
     margin-top: 3%;
     margin-bottom: 0.6rem;
-    font-style: cursive;
+    font-style: italic;
     font-family: "Lucida Console", "Courier New", monospace;
    
 }
@@ -33,7 +33,7 @@ body {
 .cell {
     width: 6rem;
     height: 6rem;
-    border: 6px solid rgb(193, 212, 225);
+    border: 6px solid rgb(181, 206, 223);
     margin: -6px 0 0 -6px;
     text-align: center;
     vertical-align: middle;
@@ -46,35 +46,35 @@ body {
 
 
 a:visited {
-    color: rgb(122, 180, 216);
+    color: rgb(97, 131, 174);
 }
 
 
 .status {
-    color: rgb(207, 220, 229);
-    font-size: 1.2rem;
-    font-weight: 600;
+    color: rgb(20, 93, 145);
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 
 
-.restart {
-    color: rgb(255, 255, 255);
-    background-color: rgb(132, 181, 213);
-    font-size: 1rem;
+.reset {
+    color: rgb(246, 246, 246);
+    background-color: rgb(13, 80, 129);
+    font-size: 1.2rem;
     font-weight: 60;
     order: 1;
     margin: 2rem;
     padding: 0.8rem;
     border: 0;
-    border-radius: 40px;
-    width: 8rem;
-    cursor: pointer;
+    border-radius: 10px;
+    width: 9rem;
+    
 }
 
-.restart:hover {
+.reset:hover {
     color: rgb(252, 252, 252);
-    background-color: rgb(185, 185, 185);
-    box-shadow: 0 5px 15px rgba(171, 161, 174, 0.4);
+    background-color: rgb(64, 65, 77);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.4);
 
 }
 
