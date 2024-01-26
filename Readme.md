@@ -6,4 +6,4 @@ This game is played on a  3 by 3 grid. This is a two player game. Player X and P
 
 At the end, it shows which player has won the game. If all spaces are filled, the game ends in a draw. To learn more about Tic-Tac-Toe click the link. https://en.wikipedia.org/wiki/Tic-tac-toe
 
-[Wireframe](./Wireframe.png)
+![Wireframe](./Wireframe.png)
