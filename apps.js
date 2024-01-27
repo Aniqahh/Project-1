@@ -1,6 +1,6 @@
 const statusDisplay = document.querySelector('.status');
 document.querySelectorAll('.cell').forEach(cell => cell.addEventListener('click', handleCellClick));
- document.querySelector('.reset').addEventListener('click', handleRestartGame);
+ document.querySelector('.reset').addEventListener('click', handleResetGame);
 
 
 let gameActive = true;
@@ -12,7 +12,7 @@ const winningMessage = () =>  ` ${currentPlayer} WINS!`;
 const tieMessage = () => `It's a Tie!`;
 const currentPlayerTurn = () => `Player ${currentPlayer}'s turn`;
 
-function handleRestartGame() {
+function handleResetGame() {
     gameActive = true;
     currentPlayer = "X";
     gameState = ["", "", "", "", "", "", "", "", ""];
